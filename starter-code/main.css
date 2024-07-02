@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #151515;
+    font-family: "Space Grotesk", sans-serif;
+    margin: 30px 200px 0;
+}
+
+/* Header styles */
+
+header{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-name{
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 100% */
+    letter-spacing: -0.444px;
+    text-decoration: none;
+}
+
+.icons ul{
+    display: flex;
+    width: 192.492px;
+    height: 25px;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.icons li:hover{
+    color: #4EE1A0;
+}
+
+
+.oval-1{
+    position: absolute;
+    left: 0;
+    top: 133px;
+    z-index: -1;
+}
+
+.profile-image-container{
+    width: 445px;
+    height: 720px;
+    position: absolute;
+    background: #242424;
+    top: 0;
+    right: 200px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.profile-image{
+    width: 445px;
+}
+
+.oval-2{
+    width: 129px;
+    height: 129px;
+    z-index: 0;
+    position: absolute;
+    top: 521px;
+    right: 580px;
+}
+
+
+
+/*Main section styles*/
+
+
+.intro{
+    margin-top: 130px;
+}
+
+.intro h1{
+    color:  #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 100% */
+    letter-spacing: -2.5px;
+}
+
+.intro p{
+    color:  #D9D9D9;
+    font-feature-settings: 'clig' off, 'liga' off;
+    margin-top: 43px;
+    /* Body */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+    max-width: 445px;
+    margin-bottom: 66px;
+}
+
+.contact-me{
+    display: inline-block;
+}
+
+.contact-me a{
+    color:  #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 2.286px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.contact-me div{
+    width: inherit;
+    height: 2px;
+    background: #4EE1A0;
+    margin-top: 10px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    color: #fff;
+    margin-top: 230px;
+}
+
+.hard-skills{
+    margin-top: 72px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 58px;
+}
+
+.hard-skills h1{
+    font-feature-settings: 'clig' off, 'liga' off;
+    color: #fff;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1.5px;
+    margin-bottom: 14px;
+}
+
+.hard-skills p{
+    color: #D9D9D9;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+
+.projects{
+    margin: 140px 0;
+}
+
+.projects-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-title h1{
+    margin-bottom: 80px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 100% */
+    letter-spacing: -2.5px;
+    color: #fff;
+}
+
+.projects-title .contact-me{
+    margin-top: 25px;
+}
+
+.projects-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 69px;
+}
+
+.projects-container img{
+    width: 545px;
+    height: 400px;
+}
+
+.projects-container h1{
+    margin-top: 19px;
+    color: #fff;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Heading (M) */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+}
+
+.projects-container p{
+    color: #D9D9D9;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+
+.projects-container > div > div{
+    margin-top: 7px;
+    display: flex;
+    gap: 18px;
+}
+
+footer{
+    position: relative;
+    left: 0;
+    height: 675px;
+    background: #242424;
+    width: calc(100% + 400px);
+    margin: 0 -200px;
+    padding: 0 200px;
+}
+
+.contact-form-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 84px;
+    gap: 220px;
+}
+
+.contact-text{
+    max-width: 50%;
+}
+
+.contact-text h1{
+    color: #fff;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 100% */
+    letter-spacing: -2.5px;
+}
+
+.contact-text p{
+    margin-top: 36px;
+    color: #D9D9D9;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+
+.contact-form-container form{
+    width: 100%;
+}
+
+
+.contact-form-container input{
+    border: none;
+    background: inherit;
+    color: #fff;
+    display: block;
+    padding: 5px 0 0 20px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: -0.222px;
+}
+
+.contact-form-container input::placeholder{
+    opacity: 0.5;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: -0.222px;
+}
+
+.contact-form-container input:focus{
+    border: none;
+    outline: none;
+}
+
+.contact-form-container hr{
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.message-label{
+    margin-bottom: 80px;
+}
+
+
+.contact-form-container .contact-me{
+    margin-top: 32px;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.contact-form-container .contact-me input{
+    border-bottom: 2px solid #4EE1A0;
+    padding-bottom: 10px;
+    padding-left: 0;
+}
+
+
+
+
+
+.contact-form-container .contact-me input:hover {
+    color: #4EE1A0!important;
+}
+
+.contact-me a:hover {
+    color: #4EE1A0!important;
+}
+
+footer hr{
+    width: 100%;
+    margin-top: 92px;
+    border-top: 1px solid #fff;
+}
+
+.footbar h1{
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 100% */
+    letter-spacing: -0.444px;
+}
+
+
+.footbar{
+    margin-top: 47px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+}
