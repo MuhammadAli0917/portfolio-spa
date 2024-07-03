@@ -8,6 +8,7 @@ body{
     background: #151515;
     font-family: "Space Grotesk", sans-serif;
     margin: 30px 200px 0;
+    overflow-x: hidden;
 }
 
 /* Header styles */
@@ -39,7 +40,7 @@ header{
 }
 
 .icons li:hover{
-    color: #4EE1A0;
+    fill: #4EE1A0;
 }
 
 
@@ -48,6 +49,24 @@ header{
     left: 0;
     top: 133px;
     z-index: -1;
+}
+
+.oval-middle{
+    position: absolute;
+    top: 1077px;
+    right: -240px;
+    z-index: 1;
+    width: 530px;
+    height: 129px;
+}
+
+.oval-bottom{
+    position: absolute;
+    top: 3524px;
+    left: -205px;
+    z-index: 1;
+    width: 530px;
+    height: 129px;
 }
 
 .profile-image-container{
@@ -193,10 +212,47 @@ header{
     row-gap: 69px;
 }
 
-.projects-container img{
+
+.project-image-container{
     width: 545px;
     height: 400px;
+    color: #fff;
+    position: relative;
 }
+
+.overlay {
+    position: absolute; /* Make the .over div positioned relative to the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75); /* Set a semi-transparent black background for the overlay */
+    display: none; /* Initially hide the overlay */
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition effect for opacity change */
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+    cursor: pointer;
+}
+
+.project-image-container:hover .overlay {
+    display: flex; /* Show the overlay on hover */
+}
+
+.overlay>h2{
+    border-bottom: 2px solid #4EE1A0;
+    padding-bottom: 10px;
+}
+
+
+.overlay>h2:hover{
+    color: #4EE1A0;
+}
+
+
+
 
 .projects-container h1{
     margin-top: 19px;
@@ -271,6 +327,8 @@ footer{
 }
 
 
+
+
 .contact-form-container input{
     border: none;
     background: inherit;
@@ -282,6 +340,17 @@ footer{
     font-weight: 500;
     line-height: 26px; /* 162.5% */
     letter-spacing: -0.222px;
+}
+
+.formInput{
+    width: 100%;
+    border-bottom: 1px solid #fff!important;
+    padding-bottom: 20px!important;
+    margin-bottom: 32px!important;
+}
+
+.formInput:focus{
+    border-bottom: 1px solid #4EE1A0!important;
 }
 
 .contact-form-container input::placeholder{
@@ -299,16 +368,20 @@ footer{
     outline: none;
 }
 
+
 .contact-form-container hr{
     width: 100%;
-    height: 1px;
+    border: 1px solid #fff;
     margin-top: 20px;
     margin-bottom: 32px;
 }
 
-.message-label{
-    margin-bottom: 80px;
+
+.formInput.message-label{
+    padding-bottom: 80px!important;
 }
+
+
 
 
 .contact-form-container .contact-me{
@@ -321,6 +394,7 @@ footer{
     border-bottom: 2px solid #4EE1A0;
     padding-bottom: 10px;
     padding-left: 0;
+    cursor: pointer;
 }
 
 
@@ -334,6 +408,34 @@ footer{
 .contact-me a:hover {
     color: #4EE1A0!important;
 }
+
+
+form label{
+    position: relative;
+}
+
+
+.formErrorSymbol{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    display: none;
+}
+
+
+.formErrorMessage{
+    position: absolute;
+    color: #FF6F5B;
+    right: 0;
+    bottom: -25px;
+    display: none;
+}
+
+
+
+
+
+
 
 footer hr{
     width: 100%;
@@ -356,6 +458,26 @@ footer hr{
     display: flex;
     justify-content: space-between;
 }
+
+.icons i{
+    color: #fff;
+    font-size: 25px;
+}
+
+.icons i:hover{
+    color: #4EE1A0;
+}
+
+.name-span{
+    border-bottom: 6px solid #4EE1A0;
+}
+
+
+
+
+
+
+
 
 
 

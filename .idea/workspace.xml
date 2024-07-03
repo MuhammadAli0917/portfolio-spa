@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd1ae5a9-b35f-4c23-8711-540849363d1d" name="Changes" comment="" />
+    <list default="true" id="cd1ae5a9-b35f-4c23-8711-540849363d1d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/assets/images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/assets/images/oval-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/assets/images/oval-middle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/single-page-developer-portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/single-page-developer-portfolio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter-code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/starter-code/main.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,18 +25,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ie6uADusUvuUEIptVIVzWTNwGX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/mukhammadalimadaminov/Desktop/Projects/SPA Portfolio/SPA Portfolio/starter-code/assets/images",
     "list.type.of.created.stylesheet": "CSS",
@@ -38,6 +55,9 @@
       <recent name="$PROJECT_DIR$/starter-code/assets/images" />
       <recent name="$PROJECT_DIR$/starter-code/assets" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/starter-code/assets/images" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,11 +68,22 @@
       <option name="presentableId" value="Default" />
       <updated>1719838915811</updated>
       <workItem from="1719838917082" duration="7000" />
-      <workItem from="1719838984305" duration="17874000" />
+      <workItem from="1719838984305" duration="32083000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
